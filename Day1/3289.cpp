@@ -43,16 +43,16 @@ public:
 };
 
 // pythonclass Solution:
-    def getSneakyNumbers(self, nums):
-        nums.sort()
-        res = []
-        freq = {}
+// def getSneakyNumbers(self, nums):
+//     nums.sort()
+//     res = []
+//     freq = {}
 
-        for x in nums:
-            freq[x] = freq.get(x, 0) + 1
+//     for x in nums:
+//         freq[x] = freq.get(x, 0) + 1
 
-        for k, v in freq.items():
-            if v > 1:
-                res.append(k)
+//     for k, v in freq.items():
+//         if v > 1:
+//             res.append(k)
 
-        return res
+//     return res
